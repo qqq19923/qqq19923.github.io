@@ -79,12 +79,12 @@
 
 
 
-<meta name="description" content="数据库 mysql redis   java java虚拟机 java并发 java容器 java基础   计算机网络 数据结构与算法 操作系统 设计模式 场景题和设计题 流行框架  数据库mysql为什么用自增列作为主键 如果我们定义了主键(PRIMARY KEY)，那么InnoDB会选择主键作为聚集索引、如果没有显式定义主键，则InnoDB会选择第一个不包含有NULL值的唯一索引作为主键索引">
+<meta name="description" content="数据库 mysql redis   java java虚拟机 java并发 java容器 java基础   计算机网络 数据结构与算法 操作系统 设计模式 场景题和设计题 流行框架">
 <meta property="og:type" content="article">
 <meta property="og:title" content="总结Java开发技术面试常问的问题，持续更新中~">
 <meta property="og:url" content="http://yoursite.com/2018/06/23/java-interview/index.html">
 <meta property="og:site_name" content="Jesper">
-<meta property="og:description" content="数据库 mysql redis   java java虚拟机 java并发 java容器 java基础   计算机网络 数据结构与算法 操作系统 设计模式 场景题和设计题 流行框架  数据库mysql为什么用自增列作为主键 如果我们定义了主键(PRIMARY KEY)，那么InnoDB会选择主键作为聚集索引、如果没有显式定义主键，则InnoDB会选择第一个不包含有NULL值的唯一索引作为主键索引">
+<meta property="og:description" content="数据库 mysql redis   java java虚拟机 java并发 java容器 java基础   计算机网络 数据结构与算法 操作系统 设计模式 场景题和设计题 流行框架">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://images2015.cnblogs.com/blog/99941/201607/99941-20160706162343639-644872932.jpg">
 <meta property="og:image" content="https://images2015.cnblogs.com/blog/99941/201607/99941-20160706162359874-1132773212.jpg">
@@ -104,10 +104,10 @@
 <meta property="og:image" content="https://img-blog.csdn.net/20180528172548697">
 <meta property="og:image" content="https://img-blog.csdn.net/20180529092914118">
 <meta property="og:image" content="https://img-blog.csdn.net/20180609112538939">
-<meta property="og:updated_time" content="2018-06-23T07:53:36.698Z">
+<meta property="og:updated_time" content="2018-06-23T08:42:23.702Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="总结Java开发技术面试常问的问题，持续更新中~">
-<meta name="twitter:description" content="数据库 mysql redis   java java虚拟机 java并发 java容器 java基础   计算机网络 数据结构与算法 操作系统 设计模式 场景题和设计题 流行框架  数据库mysql为什么用自增列作为主键 如果我们定义了主键(PRIMARY KEY)，那么InnoDB会选择主键作为聚集索引、如果没有显式定义主键，则InnoDB会选择第一个不包含有NULL值的唯一索引作为主键索引">
+<meta name="twitter:description" content="数据库 mysql redis   java java虚拟机 java并发 java容器 java基础   计算机网络 数据结构与算法 操作系统 设计模式 场景题和设计题 流行框架">
 <meta name="twitter:image" content="https://images2015.cnblogs.com/blog/99941/201607/99941-20160706162343639-644872932.jpg">
 
 
@@ -368,6 +368,7 @@
 <li><a href="#场景题和设计题">场景题和设计题</a></li>
 <li><a href="#流行框架">流行框架</a></li>
 </ul>
+<a id="more"></a>
 <h1 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h1><h2 id="mysql"><a href="#mysql" class="headerlink" title="mysql"></a>mysql</h2><h2 id="为什么用自增列作为主键"><a href="#为什么用自增列作为主键" class="headerlink" title="为什么用自增列作为主键"></a>为什么用自增列作为主键</h2><ol>
 <li><p>如果我们定义了主键(PRIMARY KEY)，那么InnoDB会选择主键作为聚集索引、如果没有显式定义主键，则InnoDB会选择第一个不包含有NULL值的唯一索引作为主键索引、如果也没有这样的唯一索引，则InnoDB会选择内置6字节长的ROWID作为隐含的聚集索引(ROWID随着行记录的写入而主键递增，这个ROWID不像ORACLE的ROWID那样可引用，是隐含的)。</p>
 </li>
